@@ -447,7 +447,7 @@ body {
     line-height: 28px;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 425px) {
 
     body{
         padding: 0 15px;
@@ -462,12 +462,17 @@ body {
         flex-wrap: wrap;
     }
 
+    .offer{
+        background: url(../img/business-finance-employment.png) 10% 100% no-repeat;
+    }
+
     .offer__holder{
         width: 100%;
     }
 
     .designer__result-card{
         width: 100%;
+        margin-top: 10px;
     }
 
     .discover__title{
@@ -507,6 +512,7 @@ body {
 
     .discover__cards-item{
         width: 100%;
+        margin-top: 10px;
     }
 
     .footer{
